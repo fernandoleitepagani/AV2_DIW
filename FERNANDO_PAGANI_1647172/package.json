@@ -1,0 +1,12 @@
+{
+  "name": "prova-diw-eventos-bh",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Kit da prova prática de DIW — Agenda Cultural BH",
+  "scripts": {
+    "api": "node node_modules/json-server/lib/cli/bin.js --watch api/db.json --port 3000"
+  },
+  "dependencies": {
+    "json-server": "0.17.4"
+  }
+}

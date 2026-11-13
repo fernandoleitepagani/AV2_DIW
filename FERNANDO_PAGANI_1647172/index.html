@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agenda Cultural BH</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+  <!-- PROVA DIW — ESTE ARQUIVO NÃO PRECISA SER ALTERADO.
+       Todo o seu código deve ser escrito em assets/js/app.js -->
+
+  <header class="topo">
+    <nav class="navbar navbar-dark">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">Agenda Cultural BH</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container my-4">
+
+    <!-- ===================== Q8 (a): Destaques ===================== -->
+    <section class="mb-5">
+      <h2 class="titulo-secao">Em destaque</h2>
+      <div id="carrossel-destaques" class="carousel slide">
+        <!-- Os slides devem ser inseridos pelo JavaScript dentro da div abaixo.
+             Modelo de UM slide (o primeiro slide precisa da classe "active"):
+
+             <div class="carousel-item active">
+               <a href="detalhes.html?id=1">
+                 <img src="assets/img/evento-1.jpg" class="d-block w-100" alt="Nome do evento">
+               </a>
+               <div class="carousel-caption">
+                 <h5>Nome do evento</h5>
+                 <p>Data formatada · Local</p>
+               </div>
+             </div>
+        -->
+        <div class="carousel-inner" id="destaques"></div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carrossel-destaques" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carrossel-destaques" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- ===================== Q8 (b): Todos os eventos ===================== -->
+    <section class="mb-5">
+      <h2 class="titulo-secao">Todos os eventos</h2>
+      <!-- Os cards devem ser inseridos pelo JavaScript dentro da div abaixo.
+           Modelo de UM card:
+
+           <div class="col-12 col-sm-6 col-lg-3">
+             <div class="card h-100">
+               <img src="assets/img/evento-1.jpg" class="card-img-top" alt="Nome do evento">
+               <div class="card-body">
+                 <span class="badge text-bg-secondary">Categoria</span>
+                 <h5 class="card-title mt-2">Nome do evento</h5>
+                 <p class="card-text">Data formatada · Preço formatado</p>
+                 <a href="detalhes.html?id=1" class="btn btn-primary btn-sm">Ver detalhes</a>
+               </div>
+             </div>
+           </div>
+      -->
+      <div class="row g-4" id="lista-eventos"></div>
+    </section>
+
+    <!-- ===================== Q10: Cadastro de evento ===================== -->
+    <section class="mb-5">
+      <h2 class="titulo-secao">Cadastrar novo evento</h2>
+      <form id="form-evento" class="row g-3" novalidate>
+        <div class="col-md-6">
+          <label for="campo-nome" class="form-label">Nome do evento *</label>
+          <input type="text" id="campo-nome" class="form-control">
+        </div>
+        <div class="col-md-3">
+          <label for="campo-categoria" class="form-label">Categoria *</label>
+          <select id="campo-categoria" class="form-select">
+            <option value="">Selecione...</option>
+            <option value="Música">Música</option>
+            <option value="Teatro">Teatro</option>
+            <option value="Exposição">Exposição</option>
+            <option value="Cinema">Cinema</option>
+            <option value="Dança">Dança</option>
+            <option value="Gastronomia">Gastronomia</option>
+          </select>
+        </div>
+        <div class="col-md-3">
+          <label for="campo-data" class="form-label">Data *</label>
+          <input type="date" id="campo-data" class="form-control">
+        </div>
+        <div class="col-md-6">
+          <label for="campo-local" class="form-label">Local</label>
+          <input type="text" id="campo-local" class="form-control">
+        </div>
+        <div class="col-md-3">
+          <label for="campo-horario" class="form-label">Horário</label>
+          <input type="time" id="campo-horario" class="form-control">
+        </div>
+        <div class="col-md-3">
+          <label for="campo-preco" class="form-label">Preço (R$) — 0 para gratuito</label>
+          <input type="number" id="campo-preco" class="form-control" min="0" step="0.01" value="0">
+        </div>
+        <div class="col-12">
+          <label for="campo-descricao" class="form-label">Descrição</label>
+          <textarea id="campo-descricao" class="form-control" rows="2"></textarea>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-success">Cadastrar</button>
+        </div>
+        <!-- Área para mensagens de sucesso ou erro do cadastro -->
+        <div class="col-12" id="mensagem-form"></div>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="rodape py-3">
+    <div class="container small">
+      Prova Prática — Desenvolvimento de Interfaces Web · Aluno(a): <strong>FERNANDO LEITE PAGANI</strong>
+    </div>
+  </footer>
+
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>

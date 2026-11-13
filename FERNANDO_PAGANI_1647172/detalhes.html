@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Detalhes do evento | Agenda Cultural BH</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+  <!-- PROVA DIW — ESTE ARQUIVO NÃO PRECISA SER ALTERADO.
+       Todo o seu código deve ser escrito em assets/js/app.js -->
+
+  <header class="topo">
+    <nav class="navbar navbar-dark">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">Agenda Cultural BH</a>
+        <a class="btn btn-outline-light btn-sm" href="index.html">&larr; Voltar</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container my-4">
+
+    <!-- ===================== Q9 (a): Informações gerais ===================== -->
+    <section class="mb-5">
+      <h2 class="titulo-secao">Informações do evento</h2>
+      <!-- Os dados do evento devem ser inseridos pelo JavaScript dentro da div abaixo.
+           Exiba pelo menos 5 informações: imagem, nome, categoria, data, horário,
+           local, preço e descrição. O layout fica a seu critério. -->
+      <div id="detalhe-evento"></div>
+    </section>
+
+    <!-- ===================== Q9 (b): Atrações do evento ===================== -->
+    <section>
+      <h2 class="titulo-secao">Atrações</h2>
+      <!-- Os cards das atrações devem ser inseridos pelo JavaScript dentro da div abaixo.
+           Modelo de UM card de atração:
+
+           <div class="col-12 col-sm-6 col-lg-4">
+             <div class="card h-100">
+               <img src="assets/img/atracao-1.jpg" class="card-img-top" alt="Nome da atração">
+               <div class="card-body">
+                 <h5 class="card-title">Nome da atração</h5>
+                 <p class="card-text">Descrição · Horário</p>
+               </div>
+             </div>
+           </div>
+      -->
+      <div class="row g-4" id="lista-atracoes"></div>
+    </section>
+
+  </main>
+
+  <footer class="rodape py-3">
+    <div class="container small">
+      Prova Prática — Desenvolvimento de Interfaces Web
+    </div>
+  </footer>
+
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>
