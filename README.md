@@ -35,13 +35,14 @@ Se existe #detalhe, executa renderDetalhes.
 O if funciona porque um elemento existente é verdadeiro, e null é falso.
 
 **c)**  
-Com ?tipo=Mangá, o valor do <select> muda para Mangá.  
+Com ?tipo=Mangá, o valor do `"<select>"` muda para Mangá.  
 Sem parâmetro tipo, nada é alterado.
 
 **d)**  
 No index.html, renderDetalhes() seria executada.  
 obra seria undefined, pois não há um id válido.  
 Depois, alvo seria null e a linha 8 causaria erro ao tentar usar alvo.innerHTML.
+;;
 
 ## Questão 4
 
@@ -66,11 +67,11 @@ dados.filmes.forEach((f, i) => {
   }
 });
 
-
+     
 ## Questão 5
 
 **a)**  
-trim() remove espaços no começo e no fim.  
+trim() remove espaços no começo e no fim.    
 toLowerCase() transforma o texto em minúsculas.  
 Isso facilita a busca.  
 !lista.length significa que a lista está vazia.
