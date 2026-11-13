@@ -1,0 +1,123 @@
+{
+  "eventos": [
+    {
+      "id": 1,
+      "nome": "Festival Sons da Serra",
+      "categoria": "Música",
+      "descricao": "Dois dias de shows de música mineira contemporânea ao ar livre, com artistas da Grande BH e do interior.",
+      "local": "Parque Municipal Américo Renné Giannetti",
+      "bairro": "Centro",
+      "data": "2026-12-05",
+      "horario": "16:00",
+      "preco": 0,
+      "destaque": true,
+      "imagem": "assets/img/evento-1.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "Clássicos ao Entardecer",
+      "categoria": "Música",
+      "descricao": "Concerto de orquestra com repertório de compositores brasileiros e europeus do século XIX.",
+      "local": "Grande Teatro Cemig Palácio das Artes",
+      "bairro": "Centro",
+      "data": "2026-12-12",
+      "horario": "19:30",
+      "preco": 60,
+      "destaque": true,
+      "imagem": "assets/img/evento-2.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "Mostra Cinema de Bairro",
+      "categoria": "Cinema",
+      "descricao": "Sessões gratuitas de curtas-metragens produzidos por coletivos de periferia, seguidas de bate-papo com as equipes.",
+      "local": "Cine Theatro Brasil",
+      "bairro": "Centro",
+      "data": "2026-12-18",
+      "horario": "18:00",
+      "preco": 0,
+      "destaque": false,
+      "imagem": "assets/img/evento-3.jpg"
+    },
+    {
+      "id": 4,
+      "nome": "Ofícios de Minas",
+      "categoria": "Exposição",
+      "descricao": "Exposição sobre ferramentas, técnicas e histórias dos ofícios tradicionais mineiros, com oficinas para o público.",
+      "local": "Museu de Artes e Ofícios",
+      "bairro": "Centro",
+      "data": "2027-01-09",
+      "horario": "10:00",
+      "preco": 20,
+      "destaque": true,
+      "imagem": "assets/img/evento-4.jpg"
+    },
+    {
+      "id": 5,
+      "nome": "Corpo em Cena",
+      "categoria": "Dança",
+      "descricao": "Espetáculo de dança contemporânea que mistura movimentos urbanos e danças populares brasileiras.",
+      "local": "Teatro Francisco Nunes",
+      "bairro": "Centro",
+      "data": "2027-01-16",
+      "horario": "20:00",
+      "preco": 40,
+      "destaque": false,
+      "imagem": "assets/img/evento-5.jpg"
+    },
+    {
+      "id": 6,
+      "nome": "Comédia no Palco",
+      "categoria": "Teatro",
+      "descricao": "Peça de humor sobre uma família mineira que tenta organizar o almoço de domingo mais caótico do ano.",
+      "local": "Sesc Palladium",
+      "bairro": "Centro",
+      "data": "2027-01-23",
+      "horario": "21:00",
+      "preco": 50,
+      "destaque": false,
+      "imagem": "assets/img/evento-6.jpg"
+    },
+    {
+      "id": 7,
+      "nome": "Sabores do Mercado",
+      "categoria": "Gastronomia",
+      "descricao": "Feira gastronômica com cozinheiros locais, queijos artesanais e cafés especiais de Minas Gerais.",
+      "local": "Mercado Novo",
+      "bairro": "Centro",
+      "data": "2027-02-06",
+      "horario": "11:00",
+      "preco": 0,
+      "destaque": false,
+      "imagem": "assets/img/evento-7.jpg"
+    },
+    {
+      "id": 8,
+      "nome": "Poesia na Praça",
+      "categoria": "Teatro",
+      "descricao": "Sarau aberto com leitura de poemas, microfone livre e intervenções teatrais.",
+      "local": "Praça da Liberdade",
+      "bairro": "Funcionários",
+      "data": "2027-02-13",
+      "horario": "17:00",
+      "preco": 0,
+      "destaque": false,
+      "imagem": "assets/img/evento-8.jpg"
+    }
+  ],
+  "atracoes": [
+    { "id": 1, "eventoId": 1, "nome": "Banda Trem de Ferro", "descricao": "Abertura do festival com repertório autoral.", "horario": "16:00", "imagem": "assets/img/atracao-1.jpg" },
+    { "id": 2, "eventoId": 1, "nome": "Coral Vozes do Barro Preto", "descricao": "Releituras de canções do Clube da Esquina.", "horario": "18:00", "imagem": "assets/img/atracao-2.jpg" },
+    { "id": 3, "eventoId": 1, "nome": "Duo Serra Azul", "descricao": "Viola caipira e voz no encerramento da noite.", "horario": "20:00", "imagem": "assets/img/atracao-3.jpg" },
+    { "id": 4, "eventoId": 2, "nome": "Orquestra Jovem de BH", "descricao": "Primeira parte do concerto, com obras brasileiras.", "horario": "19:30", "imagem": "assets/img/atracao-4.jpg" },
+    { "id": 5, "eventoId": 2, "nome": "Solista convidada ao piano", "descricao": "Concerto para piano e orquestra.", "horario": "20:30", "imagem": "assets/img/atracao-5.jpg" },
+    { "id": 6, "eventoId": 3, "nome": "Sessão Curtas da Quebrada", "descricao": "Seis curtas de coletivos da região do Barreiro.", "horario": "18:00", "imagem": "assets/img/atracao-6.jpg" },
+    { "id": 7, "eventoId": 3, "nome": "Roda de conversa com diretores", "descricao": "Bate-papo aberto ao público após a sessão.", "horario": "20:00", "imagem": "assets/img/atracao-7.jpg" },
+    { "id": 8, "eventoId": 4, "nome": "Oficina de marcenaria", "descricao": "Atividade prática para todas as idades.", "horario": "10:30", "imagem": "assets/img/atracao-8.jpg" },
+    { "id": 9, "eventoId": 4, "nome": "Visita guiada", "descricao": "Percurso comentado pelas salas da exposição.", "horario": "14:00", "imagem": "assets/img/atracao-9.jpg" },
+    { "id": 10, "eventoId": 5, "nome": "Cia. Passos Urbanos", "descricao": "Companhia responsável pelo espetáculo principal.", "horario": "20:00", "imagem": "assets/img/atracao-10.jpg" },
+    { "id": 11, "eventoId": 6, "nome": "Grupo Teatral Pão de Queijo", "descricao": "Elenco de seis atores em cena.", "horario": "21:00", "imagem": "assets/img/atracao-11.jpg" },
+    { "id": 12, "eventoId": 7, "nome": "Aula show de queijos", "descricao": "Degustação guiada de queijos artesanais da Canastra.", "horario": "12:00", "imagem": "assets/img/atracao-12.jpg" },
+    { "id": 13, "eventoId": 7, "nome": "Barista convidado", "descricao": "Métodos de preparo de cafés especiais.", "horario": "15:00", "imagem": "assets/img/atracao-13.jpg" }
+  ]
+}
